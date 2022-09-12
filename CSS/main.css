@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(126, 204, 243,.2) ;
+}
+.navbar{
+background: linear-gradient(to left,rgb(126, 204, 243),#ddd,rgb(126, 204, 243)) ;
+}
+.row{
+    margin: 0;
+}
+.navbar .navbar-brand img{
+width: 140px;
+}
+.navbar{
+    background-color: brown;
+}
+.navbar .collapse .navbar-nav .nav-item{
+padding: 0px 15px;
+}
+.navbar .collapse .navbar-nav .nav-item:hover{
+background-color: white;
+border-radius: 20px;
+}
+.carousel .carousel-inner .carousel-item img{
+    height: 100vh;
+}
+.home{
+    padding-top: 50px;
+    height:90vh;
+}
+.head .div{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(126, 204, 243) ;
+}
+.head h1{
+    margin: auto;
+    width:100%;
+    text-align: center;
+    border-left: 3px rgb(126, 204, 243) solid;
+    border-right: 3px rgb(126, 204, 243) solid;
+    border-radius:20px ;
+    color: rgb(126, 204, 243);
+    margin-top:30px;
+} 
+.home .container-fluid {
+    margin-top: 80px;
+padding-left: 250px;
+} 
+.home .container-fluid .row{
+margin: 0;
+} 
+.home .container-fluid .row .card {
+    font-size: large;
+    border: 0;
+    color: rgb(36, 87, 106);
+    background-color:rgba(126, 204, 243,.001) ;
+}
+.home .container-fluid .row .card img{
+    border-radius: 15%;
+}
+.home .container-fluid .row .card .card-body{
+    margin-left: 150px;
+    margin-top: 20px;
+} 
+.content{
+    height:850px;
+}
+.content .container-fluid .row  {
+justify-content: space-around;
+padding: 0px 150px;
+margin: 0;
+}
+.content .container-fluid .row  .carousel .carousel-inner .carousel-item {
+height: 300px;
+}
+.content .container-fluid .row  .card .card-body {
+    color: rgb(36, 87, 106);
+}
+.content .container-fluid{
+margin-top: 50px;
+}
+.content .container-fluid .row  .card .card-body .price{
+    color: rgb(34, 134, 170);
+    font-weight: bold;
+}
+.content .container-fluid .row  .card .card-body i{
+color: rosybrown;
+}
+.content .container-fluid .row  .card .card-body .btn {
+background-color:rgb(34, 134, 170); 
+}
+.content1{
+height: 800px;
+padding-top: 80px;
+background-image: url(../images/back.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+.content1 .container-fluid{
+    padding-left: 190px;
+    color: rgb(36, 87, 106);
+    margin-top: 80px;
+}
+.content1 .container-fluid .row{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: center;
+    margin: 0;
+}
+.content1 .container-fluid .row .card{
+    border-radius:20px;
+    margin-bottom: 30px;
+}
+.content1 .container-fluid .row .row .box{
+font-size: 15px; 
+padding-top: 30px;
+transition: all .5s;
+}
+.content1 .container-fluid .row .row .box:hover{
+padding-top: 50px;
+}
+.content1 .container-fluid .row .row .box:hover i{
+transform: rotate(360deg);
+color: rgb(225, 94, 138);
+}
+.content1 .container-fluid .row .row .box i{
+font-size: 20px;
+color:rgb(85, 133, 157);
+padding: 10px;
+transition: all 1s;
+}
+.content1 .container-fluid .row .row .box h1{
+font-size: 20px; 
+}
+.content1 .container-fluid .row .card a i{
+color: pink;
+font-size: 30px;
+padding: 10px;
+}
+.content2{
+    height: 200vh;
+}
+.content2 .head{
+    margin-bottom: 30px;
+}
+.content2 .nav{
+    background-color: rgb(85, 133, 157);
+    border-radius: 20px;
+    width: 45%;
+    margin: auto;
+    justify-content: space-around;
+}
+.content2 .tab-content .tab-pane .row{
+    margin: 50px 300px;
+}
+.content2 .tab-content .tab-pane .row img{
+    padding: 10px;
+}
+.footer{
+    height: 50vh;
+    background-color:rgb(34, 134, 170);
+}
+.footer .container-fluid{
+    background-color:rgb(34, 134, 170);
+  
+}
+.footer .container-fluid .row{
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    color: rgba(255, 255, 255,0.5);
+}
+.footer  .container-fluid #row {
+    padding: 20px;
+    border-bottom: 0px ;
+    justify-content: space-between;
+}
+.footer .container-fluid #row i{
+  font-size: 25px;
+  padding: 5px;
+  color: #ddd;
+}
+.footer .container-fluid #row .p a{
+  color: rgba(255, 255, 255,0.5);
+}
+.footer .container-fluid #row .p a:hover{
+  color:rgb(36, 87, 106);
+}
+.footer .container-fluid .row .card-body{
+    color: rgba(255, 255, 255,0.5);
+}
+.footer .container-fluid .row .card-body ul a{
+    color: rgba(255, 255, 255,0.5);
+}
+.footer .container-fluid .row .card-body .card-title{
+    color: white;
+}
+ul{
+    list-style-type: none;
+    }
+@media(max-width:750px) {
+
+    .head .div{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    .head h1{
+        margin-top:50px;
+    } 
+    .carousel .carousel-inner .carousel-item img{
+        height: 50vh;
+    }
+    .home{
+        margin-bottom: -180px;
+
+    }
+    .home .container-fluid .row .card .card-body{
+        margin-left: 0px;
+        margin-top: 20px;
+    } 
+    .home .container-fluid {
+        padding:5px;
+    } 
+    .content .container-fluid .row  {
+        justify-content: space-around;
+        padding: 0px 0px;
+    }
+    .content1 .container-fluid .row{
+        padding-left: 5px;
+    }
+    .content1{
+        margin-top: 800px;
+        height:2500px;
+    }
+    .content .container-fluid .row  .carousel .carousel-inner .carousel-item {
+        height: 200px;
+        }
+    .content2{
+        height: 950vh;
+        margin: 0;
+    }
+    .content2 .nav{
+        width: 90%;
+    }
+    .content2 .tab-content .tab-pane .row{
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+@media(max-width:960px) {
+    .head .div{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    .head h1{
+        margin-top:30px;
+    } 
+    .home{
+        height: 1300px;
+    }
+    .home .container-fluid .row .card .card-body{
+        margin-left: 20px;
+    } 
+    .home .container-fluid {
+        padding:0px;
+    } 
+    .content{
+        height:1000px;
+    }
+    .content .container-fluid .row  {
+        padding: 0px;
+    }
+    .content1 .container-fluid{
+        height: 1000px;
+    }
+        .content1{
+            height:1800px;
+        }
+        .card {
+            padding: 0;
+            margin: 0;
+        }
+        .row{
+            padding: 0;
+            margin: 0;
+        }
+        .content1 .container-fluid {
+            width: 100%;
+            padding: 0;
+        }
+        .content1 .container-fluid .row{
+            width: 100%;
+        }
+        .content2{
+            height:6200px;
+        }
+        .content2 .nav{
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        .content2 .tab-content .tab-pane .row{
+            width: 70%;
+            margin: auto;
+        }
+        .content2 .tab-content .tab-pane .row img{
+            height: 500px;
+        }
+        .footer{
+            height: 110vh;
+        }
+
+}
